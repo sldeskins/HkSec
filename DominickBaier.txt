@@ -1,0 +1,66 @@
+Role-based access control (RBAC)
+
+2002 .Net 1.0/ASP.Net 1.0
+IIdentity
+IPrincipal
+Thread.CurrentPrincipal
+
+
+2006 WCF System.IdentityModel
+SecurityToken Claim
+ServiceSecurityContext
+
+2009  WIF 
+IClaimsIdentity 
+IClaimsPrincipal
+Thread.CurrentPrincipal
+
+Microsoft.IdentityModel
+
+
+Web API v2 Security
+
+Implementing Authentication and Authorization in ASP.NET Web API v2.
+by Dominick Baier 
+
+Leastpriviledge.com
+@Leastpriviledge
+
+
+HTTPS= =HTTP over TLS
+
+TLS adds - Tunnel
+- server authentication
+- integrity protection
+- replay protection
+- confidentiality
+
+
+X.509 Certificates
+
+
+Simplified SSL handshake
+
+http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html - more details
+
+
+How to get SSL Certificates, buy Verisign/GoDaddy . . ., Corporated PKI, Create yourself makecert.exe,  
+
+
+----------------
+Microsoft
+IIS
+
+
+netsh  http add
+
+
+httpconfig
+
+
+
+
+
+
+
+

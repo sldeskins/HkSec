@@ -1,0 +1,13 @@
+
+Five Essential Tools for Building REST APIs
+
+REST APIs are a great way to connect systems together. They are platform-independent and work on simple, well-established standards that are designed to support high performance, massive scale, and secure communication. This course presents a toolset for delivering better REST APIs that give clients what they need, run fast, scale well, and are easy to look after.
+by Elton Stoneman 
+
+
+
+
+
+apiary.io, swagger, RAML
+
+

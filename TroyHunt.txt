@@ -1,7 +1,31 @@
+CA - Certification Authority
 
+SSL certificate pinning
+
+haveibeenpwned.com
+
+OpenID and OAuth
+
+
+inurl:.asmx filetype:asmx  - search in google; example weather
+
+http://hackyourselffirst.troyhunt.com/robots.txt
+
+http://hackyourselffirst.troyhunt.com/api/admin/users
+http://hackyourselffirst.troyhunt.com/help - will show microsoft api help
+-----
 openIdConnect,Passwordless, Clef
 plaintextoffenders.com
 
+
+ARP Poisoning - Address Resolution Protocol
+
+devices Wi-Fi Pineapple, Throwing star lan tap - packet capture; analyse with wireshark 
+
+Hack Your Own Api
+====================================================
+----------------------------------------------------
+====================================================
 hashkiller.com.dic
 
 www.passwordmeter.com
