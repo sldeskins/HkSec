@@ -1,3 +1,21 @@
+interface IIdentity{
+	bool IsAuthenticate {get;}
+	string AuthenticationType {get;}
+	string Name {get;}
+}
+
+interface IPrincipal{
+	IIdentity Identity {get;}
+	bool IsInRole(string roleName);
+}
+
+
+
+
+
+
+
+------------------------------------
 Role-based access control (RBAC)
 
 2002 .Net 1.0/ASP.Net 1.0
@@ -10,12 +28,12 @@ Thread.CurrentPrincipal
 SecurityToken Claim
 ServiceSecurityContext
 
-2009  WIF 
+2009  WIF Microsoft.IdentityModel
 IClaimsIdentity 
 IClaimsPrincipal
 Thread.CurrentPrincipal
 
-Microsoft.IdentityModel
+
 
 
 Web API v2 Security

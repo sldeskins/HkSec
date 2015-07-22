@@ -1,0 +1,157 @@
+Practical Networking
+Ben Piper
+@_BenPiper
+www.benpiper.com
+
+
+Address Resolution Protocol (ARP)
+Dynamic Host Configuration Protocol (DHCP)
+Domain Name Server (DNS)
+
+
+Components:
+End-User device
+Local Area Networks (LAN)
+Router (physical device) / Gateway (logical)
+Firewall
+
+
+Media Access Control (MAC)
+
+Network Address Translation (NAT)
+
+Customer Premise Equipment (CPE)  ISP CPE router
+
+
+Troubleshooting Steps:
+----------------------
+- Define the problem
+- Isolate the Network layer
+- Isolate the scope
+- Isolate the cause
+
+
+Define the problem
+===========================
+Asked what's going on?
+Ask if can access internal sites.
+Ask if can access external sites.
+
+
+Isolating the Network Layer
+===========================
+Open System Interconnection (OSI) Model
+ 
+ 1. Physical
+		Is the network cable plugged in?
+		Does the network interface card (NIC) have a link light?
+		
+ 2. Data link
+		Is the IP and netmask configured properly?
+		ipconfig
+		
+		Are other devices on the LAN reachable via Layer 2?
+		ping 10.10.1.255
+		
+		Does it respond to an ARP requests?
+		arp -a
+	
+ 3. Network
+		Is the packect getting drop?
+		ping 
+		tracert plurasight.com
+		pathping
+	
+ 4. Transport
+		Is the correct port being used?
+		Is the port open and responding?
+		telnet
+		nmap
+ 
+ 5. Session
+ 6. Presentation
+ 7. Application
+
+ 
+ 
+ Isolating the Scope
+ ===================
+ Are you the only one effected?
+ When was the last time you were able to access?
+ 
+ Isolating the Cause
+ ===================
+ 
+ Formulate a Theory 
+ 
+ 
+ 
+ 
+ 
+ Static Routing 
+ Open Shorted Path First(OSPF)
+ Enhanced Interior Gateway Routing Protocol (EIGRP)
+ 
+ 
+ Example using IE and Windows
+ ----------------------------
+ Control Panel -> network sharing
+ 
+ Local Area Connection  - check this out first
+	Then properties -> ip4 properties for the gateway
+	Go to command prompt and ping the gateway
+	
+	
+	
+	ipconfig /all
+	
+	ipconfig /release
+	ipconfig /renew
+	
+	
+	
+	arp -d
+	
+	
+	nop arp in ip6
+	
+	netsh
+	netsh>interface ipv6
+	netsh>interface ipv6>show neighbors     //ipv6 equivalent of arp
+	netsh>interface ipv6>delete neighbors     //ipv6 equivalent of arp -d
+	
+	netsh>interface ipv6>set interface "Local Area Connection" routerdiscovery=disable     // 
+	
+	
+	 
+	
+	Ports are associated with an Application
+	----------------------------------------
+	
+	Telent:
+	Windows machine 
+	control panel-> programs and features -> turn windows features on/off -> telnet client check box
+	>telnet intranet.netluxia.com 443        //443 tcp
+	>telnet intranet.netluxia.com 80         //80 http
+	
+	
+	-----------------------------
+	Secure Sockets Layer (SSL)
+	
+	SSL replaced by TLS Level 5 - Session
+	HTTPS - Level 7 - Application
+	
+	
+	
+	nslookup 
+	>intranet.netluxia.com
+	>exit
+	
+	
+	checking out latency
+	----------------------
+	arp -a
+	tracert - d intranet.netluxia.com
+	netstat -n
+	
+	Colasoft Ping Tool  Third party
