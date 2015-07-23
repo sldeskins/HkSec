@@ -17,6 +17,10 @@ namespace SecurityPipeline
              "api/{controller}");
 
 
+             ////globally 
+             //configuration.Filters.Add(TestAuthentificationFilterAttribute);
+
+
              app.Use(typeof(TestMiddleware)); 
 
              app.UseWebApi(configuration);

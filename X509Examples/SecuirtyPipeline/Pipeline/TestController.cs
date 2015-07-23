@@ -10,6 +10,7 @@ namespace SecurityPipeline.Pipeline
     public class TestController:ApiController
 
     {
+    [TestAuthentificationFilter]
         public IHttpActionResult Get () { 
         Helper.Write("Controller", User);
 
