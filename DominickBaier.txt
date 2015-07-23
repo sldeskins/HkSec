@@ -1,3 +1,9 @@
+Dominick Baier 
+Leastpriviledge.com
+@Leastpriviledge
+
+
+
 interface IIdentity{
 	bool IsAuthenticate {get;}
 	string AuthenticationType {get;}
@@ -35,12 +41,11 @@ Thread.CurrentPrincipal
 
 
 
-
+=============================================================
 Web API v2 Security
-
 Implementing Authentication and Authorization in ASP.NET Web API v2.
 by Dominick Baier 
-
+=============================================================
 Leastpriviledge.com
 @Leastpriviledge
 
@@ -76,9 +81,151 @@ netsh  http add
 httpconfig
 
 
+Authentication and Authorization in Web API v1
+----------------------------------------------
+Authentication:
+	Server IIS via HttpModule
+	Web API via HttpMessageHandler
+
+Authorization:	
+	via Authorization Filter or
+	via Controller
+
+Authentication and Authorization in Web API v2
+----------------------------------------------
+Host:
+	OWIN - Host/Framework independent concerns, e.g. authentication
+
+Web API:	
+	MessageHandler (global/per route) - Web API cross-cutting concerns, e.g. CORS
+	Authorization Filter - Web API specific authentication
+	Authorization Filter - Authorization
+
+http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
+
+
+The Open Web Interface for .NET (OWIN)
 
 
 
+Classic Hosting
+-----------------
+Web API / Web Host / ASP.NET / IIS
+Web API / Self Host / WCF /.NET Process
+
+V2
+--------
+Web API (+OWIN Adapter)/ OWIN / ASP.NET(+OWN Bridge) / IIS
+
+pure OWIN
+------------
+Web API (+OWIN Adapter)/ OWIN /Process/Host(+OWN Bridge) 
+
+===================================================================================
+Introduction to OAuth2, OpenID Connect and JSON Web Tokens (JWT)
+
+OAuth2, OpenID Connect and JWT are the new security stack for modern applications.
+by Dominick Baier 
+===================================================================================
+
+History 
+ SAML 1.1/2.0
+  xml based
+  encryption and signature options
+  
+ Simple Web Tokent (SWT) 
+  form/URL encoded
+  sysmmetric signature
+  
+ JSON Web Token(JWT)
+  json encoded
+  symmetric and asymmetric signatures
+  symmetric and asymmetric encryption
+  
+  
+  JWT Claims
+	Issuer
+	Audience
+	IssuedAt
+	Expiration
+	Subject
+	and application claims
+	
+
+Microsoft Nuget - Microsoft.IdentityModel.Tokens.JWT
 
 
+oAuth2 : Players
+----------------
+ - client
+ - Authorization Server
+ - Resource Server 
+ - Resource Owner
+ 
+ 
+ OAuth2 Flows - with User Interaction
+ ------------------------------------
+ I - Authorization Code Flow
+	Web application clients
+		 1. Request authorization
+		 2. Request token
+		 3. Access resource
+		 
+ II - Implicit Flow
+	Native / local clients	
+		1. Request authorization & token
+		2. Access resource
+		
 
+		
+ OAuth2 Flows - with no User Interaction
+ ---------------------------------------	
+III -  Resource Owner Password Credential Flow	
+  "Trusted clients"
+	1. Request token with resource owner credentials
+	2. Access resource
+ 
+IV - Client Credential Flow
+	Client to Service communication
+		1. Request token with client credentials
+		2. Access resource
+  
+
+OpenID Connect
+--------------
+sits upon OAuth2
+
+OAuth2 is authorization
+Authentication   - OAuth is abuse for Authentication
+  
+  http://openid.net/connect
+  
+  
+OpenID Connect Players	 
+----------------------
+	Identity Provider
+	Authorization Endpoint
+	Token Endpoint
+	UserInfo Endpoint
+  
+  
+  https://www.tbray
+  
+  
+Discussion Links
+----------------
+ https://github.com/thinktecture/Thinktecture.AuthorizationServer - goes with this course
+ 
+ 
+http://brockallen.com/2014/01/09/a-primer-on-external-login-providers-social-logins-with-owinkatana-authentication-middleware/
+
+
+https://vimeo.com/97344501
+  
+https://github.com/mj1856/DotNetOpenAuth.GoogleOAuth2 
+  
+  
+https://github.com/thinktecture/Thinktecture.IdentityServer.v3.Samples/tree/master/source/Clients    
+https://github.com/thinktecture/Thinktecture.IdentityModel.45/tree/master/Samples.
+
+https://github.com/thinktecture/Thinktecture.AuthorizationServer
