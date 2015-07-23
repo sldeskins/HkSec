@@ -121,6 +121,44 @@ pure OWIN
 ------------
 Web API (+OWIN Adapter)/ OWIN /Process/Host(+OWN Bridge) 
 
+
+
+-------
+Nuget Microsoft.OWin.Host allow to host not using IIS, host from a console app; go to project properties, Web, Serrver area to change 
+hosting selection.
+
+
+System.Web is a 12 year old dll which Microsoft is trying to get rid of.
+
+Nuget Helios (Preview) Microsoft.OWin.Host.IIS remove System.Web /web.config) from the process; 
+this means the  HTTPModules are no longer included in the process.
+
+
+-----------------------------------------------------------------
+I - Windows Authentication
+--------------------------
+Classic intranet scenarios
+	- all parties belong to Active Directory
+	- no code, just configuration
+	
+
+Not really suited for anything else
+	CSRF issues
+
+
+
+II - Basic Authentication
+-------------------------
+
+
+III - SSL client certificates
+------------------------------
+
+
+
+
+Asides:
+run MMC   (Microsoft Management Console) -> add certificates
 ===================================================================================
 Introduction to OAuth2, OpenID Connect and JSON Web Tokens (JWT)
 

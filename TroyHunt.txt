@@ -1,3 +1,129 @@
+======================================================
+ASP.NET Security Secrets Revealed
+
+ASP.NET Security Secrets Revealed is all about looking at a broad range of security features within the framework in small bites of easily consumable information.
+by Troy Hunt 
+======================================================
+
+ASP.Ner Window Form Project
+How to Add custom error page:
+	In Web.config
+	in <system.web>
+	 Look for <customErrors>    <!-- it's not there by default -->
+e.g.:
+    <customErrors mode="On"> </customErrors>
+    <customErrors mode="On" defaultRedirect="~/Error.aspx"></customErrors>
+	<customErrors mode="On" defaultRedirect="~/Error.aspx"  redirectMode="ResponseRewrite"></customErrors>
+
+
+---
+Session State
+   <sessionState mode="InProc" customProvider="DefaultSessionProvider">  // default uses cookie to persist - see shrome developer tools -> resource ->cookie->local host .Net session cookie
+   
+   <sessionState mode="InProc" customProvider="DefaultSessionProvider" cookieless="UseUri"> //http://localhost:57654/(S(10jivcrv1zllxptl2gsqxvw2))/default   persistance is in the uri
+
+   
+   <sessionState mode="InProc" customProvider="DefaultSessionProvider" cookieless="UseCookies" >
+
+---
+Tracing is not no by default
+in web.config add trace node to system.web
+
+
+ <system.web>
+    <trace enabled="true"/>
+
+	e.g. more secure 
+	<trace enabled="false" localOnly="false" />
+	
+ To see trace in the browser type url: http://localhost:57654/trace.axd
+	
+---
+query string via url
+4.5 protects against  url like  http://localhost:57654/?a=<script>
+
+to turn the protect off requires two steps:
+ in web.config 
+ 
+  - <httpRuntime targetFramework="4.5" />  to   <httpRuntime targetFramework="4.5" requestValidationMode="2.0" />  //put is back to the 2.0 url validation which does not protect from script injection
+ 
+ 
+  - <pages>  to  <pages validateRequest="false">
+ 
+Note: There are ways to do this at the page level
+
+---
+
+
+ in web.config within
+ 
+ <configuration>
+ 
+ add <location with path for the page and within that add <system.web>
+
+  e.g.:
+  <location path="Contact">
+    <system.web>
+      <authorization>
+        <allow roles="Admin"/>
+		<deny users="*"/>
+      </authorization>
+    </system.web>
+  </location>
+  
+--- 
+turn of http header that contain server version information
+ in web.config	set httpRuntime versionHeader =false
+	
+	e.g.:
+	
+	  <httpRuntime targetFramework="4.5" requestValidationMode="2.0"  enableVersionHeader="false"/>
+
+
+---
+ globally make a cookies set by the application HttpOnly by default;
+ 
+ in web.config
+    <system.web>
+    <httpCookies httpOnlyCookies="true"/>
+   
+   
+---
+ globally make a cookies set by the application to be only sent over a secure connection by default;
+
+    <httpCookies requireSSL="true"/>
+
+---
+machine web.config   
+
+to turn of access to ALL web apps running on the machine to 
+	- trace log and 
+	- custom error
+
+<system.web>
+	<deployment retail="true">
+
+---
+maxRequestLength 4 Meg is the default size
+
+ <httpRuntime targetFramework="4.5" requestValidationMode="2.0"  enableVersionHeader="false" maxRequestLength="4096"/>
+
+ 
+---
+to protect against unsafe headers
+
+ <configuration>
+  <system.net>
+    <settings>
+      <httpWebRequest useUnsafeHeaderParsing="false"/>
+    </settings>
+  </system.net>
+  
+  
+---------------------------------------------------------
+
+
+
 CA - Certification Authority
 
 SSL certificate pinning

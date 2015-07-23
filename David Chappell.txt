@@ -1,0 +1,33 @@
+Claims-based Identity for Windows: The Big Picture
+
+Claims-based identity provides a consistent way for applications to handle identity whether they’re accessed locally, via the Internet, across company boundaries, or in other ways.
+by David Chappell 
+
+
+
+Kerberos ticket is 25 year old technology, within same domain.
+
+
+Claims-Based Identity
+
+Tokens and Claims
+
+Token has claims
+and digital signature
+
+A token is issued by a Security Token Service (STS) is provided by an entity provider(IdP)
+ one format is SAML (Security Association Markup Language)
+ 
+ 
+Send token to application
+The application has a list of trusted STS.
+
+
+Identity Federation - accepts tokens from another STS provider
+
+Federation Provider (FP)
+
+Windows Identity Foundation (WIF) Identity Library
+
+Lightweight Directory Access Protocol (LDAP)
+

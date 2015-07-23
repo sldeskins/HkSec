@@ -18,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0D4DA1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPipeline", "SecuirtyPipeline\SecurityPipeline.csproj", "{B3776BF4-2B8E-4AFB-B9A1-8DD560BEEE57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowAuthentication", "WindowAuthentication\WindowAuthentication.csproj", "{5186F8E1-9780-4F9A-8A6D-F97B160ECB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TR1_WebApplication1", "TR1_WebApplication1\TR1_WebApplication1.csproj", "{5B9889D4-F1B2-40F1-90B5-4987B5007A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +48,14 @@ Global
 		{B3776BF4-2B8E-4AFB-B9A1-8DD560BEEE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3776BF4-2B8E-4AFB-B9A1-8DD560BEEE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3776BF4-2B8E-4AFB-B9A1-8DD560BEEE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5186F8E1-9780-4F9A-8A6D-F97B160ECB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5186F8E1-9780-4F9A-8A6D-F97B160ECB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5186F8E1-9780-4F9A-8A6D-F97B160ECB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5186F8E1-9780-4F9A-8A6D-F97B160ECB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9889D4-F1B2-40F1-90B5-4987B5007A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9889D4-F1B2-40F1-90B5-4987B5007A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9889D4-F1B2-40F1-90B5-4987B5007A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9889D4-F1B2-40F1-90B5-4987B5007A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
