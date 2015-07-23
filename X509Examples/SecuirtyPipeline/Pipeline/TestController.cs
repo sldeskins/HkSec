@@ -7,19 +7,20 @@ using System.Net.Http;
 
 namespace SecurityPipeline.Pipeline
 {
-    public class TestController:ApiController
-
+    public class TestController : ApiController
     {
-    [TestAuthentificationFilter]
-        public IHttpActionResult Get () { 
-        Helper.Write("Controller", User);
+        [TestAuthentificationFilter]
+        [TestAurthorizationFilter]
+        public IHttpActionResult Get ()
+        {
+            Helper.Write("Controller", User);
 
-        Helper.Write("Controller - alternative", Request.GetRequestContext().Principal);
-    
+            Helper.Write("Controller - alternative", Request.GetRequestContext().Principal);
 
 
 
-        return Ok();
+
+            return Ok();
         }
     }
 }
