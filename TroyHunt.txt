@@ -119,9 +119,81 @@ to protect against unsafe headers
     </settings>
   </system.net>
   
-  
----------------------------------------------------------
+---
+asp viewState - base-64 encoded
+no viewstate in mvc
 
+Mac - message authentication code is machine specific
+default true;
+however may be turned off, on Web farms when when machine keys are not synchronized.
+
+<system.web>
+	<pages enableViewStateMac="true" viewStateEncryptionMode="Always">
+  
+---
+
+MyButton.Text = "<script>alert('Hello World');</script>"; //output encoding for html attributes
+MyLabel.Text = "<script>alert('Hello World');</script>"; //not encoded
+MyLabel.CssClass = "<script>alert('Hello World');</script>"; // encoded
+
+http://troy.hn/YHiOlA  to see list 
+  
+  
+--
+to encrypt connection string in web site 
+go to vs command prompt and run as admin/users
+cd to version of frame work
+
+e.g.
+cd  c:\Windows\Mocrosoft.Net\Framework\v4/0.30319
+run command
+aspnet_regiis -site "TR5_WebApplication5" -app "/" -pe "connectionStrings"
+
+
+
+to decrypt
+aspnet_regiis -site "TR5_WebApplication5" -app "/" -pd "connectionStrings"
+
+---
+nuget package ELMAH
+nuget package NWebSec
+
+---
+Asafaweb.com
+
+ ---------------------------------
+ -  Membership, Identity and Roles
+ ---------------------------------
+ Visual Studio 2012 
+ ------------------
+ 
+ timeout="2880" is two days and the default setting; change to a sorter period
+ 
+ 
+    <authentication mode="Forms">
+      <forms loginUrl="~/Account/Login" timeout="120" defaultUrl="~/" />
+    </authentication>
+ 
+ 
+     <forms loginUrl="~/Account/Login" timeout="2880" defaultUrl="~/"  requireSSL="false" cookieless="UseCookies" name="myA" />
+ 
+ 
+  ---------------------------------
+ -  Membership, Identity and Roles
+ ---------------------------------
+ Visual Studio 2012 
+ ------------------
+ 
+ to review passwords  . . .
+ <membership defaultProvider="DefaultMembershipProvider">
+      <providers>
+        <add
+		
+ <roleManager defaultProvider="DefaultRoleProvider">
+      <providers>
+ 
+---------------------------------------------------------
+---------------------------------------------------------
 
 
 CA - Certification Authority

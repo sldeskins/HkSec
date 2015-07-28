@@ -1,0 +1,30 @@
+Web Search Note:
+
+http://webdeploywiki.com/Print.aspx?Page=Common%20Web%20Deploy%20problems%20and%20how%20to%20troubleshoot%20them
+
+
+
+http://www.orcsweb.com/blog/gabe/how-to-install-webdeploy-on-windows-server-2012/
+http://www.orcsweb.com/blog/gabe/how-to-use-web-deploy-visual-studio-to-importexport-iis8-sites/
+
+
+
+http://www.iis.net/learn/manage/creating-websites/scenario-build-a-static-website-on-iis
+http://www.iis.net/learn/get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview
+
+Wmsvc
+https://msdn.microsoft.com/en-us/library/dd465337(v=vs.110).aspx
+
+web deploy and web management services
+
+
+
+IIS for Developers
+
+This course teaches developers how to setup, configure, and manage IIS.
+by Steve Evans 
+--------------------------------------------
+
+inetmgr
+
+

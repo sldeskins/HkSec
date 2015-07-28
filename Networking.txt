@@ -1,8 +1,9 @@
+======================================
 Practical Networking
 Ben Piper
 @_BenPiper
 www.benpiper.com
-
+--------------------------------------
 
 Address Resolution Protocol (ARP)
 Dynamic Host Configuration Protocol (DHCP)
@@ -155,3 +156,36 @@ Open System Interconnection (OSI) Model
 	netstat -n
 	
 	Colasoft Ping Tool  Third party
+	
+	
+======================================
+
+TCP/IP Networking for Developers
+
+Learn what developers need to know about networking (The TCP/IP kind, not the Facebook kind).
+by Steve Evans 
+
+steveevans 
+--------------------------------------
+
+
+Dynamic Host Configuration Protocol (DHCP)
+
+failover 169.254.x.x  - means the DHCP failed
+
+---
+
+nslookup
+--
+
+
+
+
+
+TCP 
+
+UDT
+
+
+
+	
