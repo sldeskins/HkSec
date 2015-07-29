@@ -370,3 +370,14 @@ Open Web Application Security Project (OWASP)  to 10 attacks and how to mitigate
 CWE/SANS TOP 25 Most Dangerous Software Errors https://www.sans.org/top25-software-errors/
 
 Nation Vulnerability Database https://nvd.nist.gov/
+
+
+-----------------------------------------------------------------------------------------------------------
+===============================
+
+ASP.NET 3.5 Security
+
+Learn how to secure your ASP.NET Web applications.
+by Keith Sparkjoy 
+================================
+msdn.com/securityguidance

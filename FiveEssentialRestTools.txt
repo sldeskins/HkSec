@@ -5,9 +5,24 @@ REST APIs are a great way to connect systems together. They are platform-indepen
 by Elton Stoneman 
 
 
+ 
+Design:
+-------
+	apiary.io, swagger, RAML
 
-
-
-apiary.io, swagger, RAML
-
-
+Testing:
+--------
+ REST ->Http->TCP/IP
+ 
+ Rest-
+ Postman in Chrome
+ 
+ or Firefox - rest easy, cURL
+ 
+ Http Debggers - 
+	
+	Burp, FIddler, Charles 
+ 
+ Wireshark
+ 
+ 
