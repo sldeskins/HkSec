@@ -1,0 +1,393 @@
+
+
+
+Code Access Security (CAS) policy
+Software Restriction Policies (SRP)
+AllowPartiallyTrustedCallersAttribute (APTCA)
+
+Securing Applications
+======================
+https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.71).aspx
+
+.NET Framework 1.1
+-------------------
+The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write security code. These classes and services also enable system administrators to customize the access that code has to protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
+In This Section
+Key Security Concepts
+Provides an overview of common language runtime security features. This section is of interest to developers and system administrators.
+Code Access Security
+Describes how to interact with code access security in your code. This section is of interest to developers.
+Role-Based Security
+Describes how to interact with role-based security in your code. This section is of interest to developers.
+Cryptographic Services
+Provides an overview of cryptographic services provided by the .NET Framework. This section is of interest to developers.
+Security Policy Management
+Describes how to manage code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Security Policy Best Practices
+Describes some of the best practices for administrating code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Secure Coding Guidelines
+Describes some of the best practices for creating reliable .NET Framework applications.
+Security Tools
+Describes tools that are useful to developers and administrators.
+Related Sections
+Securing ASP.NET Web Applications
+Describes ASP.NET security and provides instructions for using it in your code.
+Configuring Security Policy
+Describes how to configure security policy using the .NET Framework Configuration tool and the Code Access Security Policy tool, and how to import security components using XML files.
+
+
+Security in the .NET Framework 
+------------------------------
+https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.80).aspx
+.NET Framework 2.0 
+The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write security code. These classes and services also enable system administrators to customize the access that code has to protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
+In This Section
+Security How-to Topics
+Lists links to How-to topics contained in this section.
+Key Security Concepts
+Provides an overview of common language runtime security features. This section is of interest to developers and system administrators.
+Code Access Security
+Describes how to interact with code access security in your code. This section is of interest to developers.
+Role-Based Security
+Describes how to interact with role-based security in your code. This section is of interest to developers.
+Cryptographic Services
+Provides an overview of cryptographic services provided by the .NET Framework. This section is of interest to developers.
+Security Policy Management
+Describes how to manage code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Security Policy Best Practices
+Describes some of the best practices for administrating code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Secure Coding Guidelines
+Describes some of the best practices for creating reliable .NET Framework applications. This section is of interest to developers.
+Security Tools
+Describes tools that are useful to developers and administrators.
+ACL Technology Overview
+Describes the managed APIs that allow you to programmatically create or modify discretionary access control lists (DACLs) and system access control lists (SACLs) for a number of protected resources such as files, folders, and so on. This section is of interest to developers.
+About System.Security.Cryptography.Pkcs
+Describes the namespace that contains the managed code implementation of the Cryptographic Message Syntax (CMS) and Public-Key Cryptography Standards #7 (PKCS #7) standards. This section is of interest to developers.
+Using System.Security.Cryptography.Pkcs
+Explains how to use the System.Security.Cryptography.Pkcs namespace to program the Cryptographic Message Syntax (CMS) and Public-Key Cryptography Standards #7 (PKCS #7) standards into your application. This section is of interest to developers.
+Related Sections
+ASP.NET Web Application Security
+Describes ASP.NET security and provides instructions for using it in your code.
+Configuring Security Policy
+Describes how to configure security policy using the .NET Framework Configuration tool and the Code Access Security Policy tool, and how to import security components using XML files.
+Community Additions
+
+
+
+Security in the .NET Framework
+-------------------------------
+ https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.85).aspx
+
+.NET Framework 3.0 Other Versions 
+The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write security code. These classes and services also enable system administrators to customize the access that code has to protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
+In This Section
+Security How-to Topics
+Lists links to How-to topics contained in this section.
+Key Security Concepts
+Provides an overview of common language runtime security features. This section is of interest to developers and system administrators.
+Code Access Security
+Describes how to interact with code access security in your code. This section is of interest to developers.
+Role-Based Security
+Describes how to interact with role-based security in your code. This section is of interest to developers.
+Cryptographic Services
+Provides an overview of cryptographic services provided by the .NET Framework. This section is of interest to developers.
+Security Policy Management
+Describes how to manage code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Security Policy Best Practices
+Describes some of the best practices for administrating code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Secure Coding Guidelines
+Describes some of the best practices for creating reliable .NET Framework applications. This section is of interest to developers.
+Security Tools
+Describes tools that are useful to developers and administrators.
+ACL Technology Overview
+Describes the managed APIs that allow you to programmatically create or modify discretionary access control lists (DACLs) and system access control lists (SACLs) for a number of protected resources such as files, folders, and so on. This section is of interest to developers.
+About System.Security.Cryptography.Pkcs
+Describes the namespace that contains the managed code implementation of the Cryptographic Message Syntax (CMS) and Public-Key Cryptography Standards #7 (PKCS #7) standards. This section is of interest to developers.
+Using System.Security.Cryptography.Pkcs
+Explains how to use the System.Security.Cryptography.Pkcs namespace to program the Cryptographic Message Syntax (CMS) and Public-Key Cryptography Standards #7 (PKCS #7) standards into your application. This section is of interest to developers.
+Related Sections
+ASP.NET Web Application Security
+Describes ASP.NET security and provides instructions for using it in your code.
+Configuring Security Policy
+Describes how to configure security policy using the .NET Framework Configuration tool and the Code Access Security Policy tool, and how to import security components using XML files.
+
+
+
+Security in the .NET Framework
+------------------------------
+https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.90).aspx
+
+.NET Framework 3.5 Other Versions 
+The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write security code. These classes and services also enable system administrators to customize the access that code has to protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
+In This Section
+
+Security How-to Topics
+Lists links to How-to topics contained in this section.
+Key Security Concepts
+Provides an overview of common language runtime security features. This section is of interest to developers and system administrators.
+Code Access Security
+Describes how to interact with code access security in your code. This section is of interest to developers.
+Role-Based Security
+Describes how to interact with role-based security in your code. This section is of interest to developers.
+Cryptographic Services
+Provides an overview of cryptographic services provided by the .NET Framework. This section is of interest to developers.
+Security Policy Management
+Describes how to manage code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Security Policy Best Practices
+Describes some of the best practices for administrating code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Secure Coding Guidelines
+Describes some of the best practices for creating reliable .NET Framework applications. This section is of interest to developers.
+Security Tools
+Describes tools that are useful to developers and administrators.
+ACL Technology Overview
+Describes the managed classes that allow you to programmatically create or modify discretionary access control lists (DACLs) and system access control lists (SACLs) for a number of protected resources such as files, folders, and so on. This section is of interest to developers.
+Related Sections
+
+About System.Security.Cryptography.Pkcs
+Describes the System.Security.Cryptography.Pkcs namespace that contains the managed code implementation of the Cryptographic Message Syntax (CMS) and Public-Key Cryptography Standards #7 (PKCS #7). This section is of interest to developers.
+Using System.Security.Cryptography.Pkcs
+Explains how to use the System.Security.Cryptography.Pkcs namespace to program the CMS and PKCS #7 standards into your application. This section is of interest to developers.
+ASP.NET Web Application Security
+Describes ASP.NET security and provides instructions for using it in your code.
+Configuring Security Policy
+Describes how to configure security policy using the .NET Framework Configuration tool and the Code Access Security Policy tool, and how to import security components using XML files.
+See Also
+
+Other Resources
+C# 3.0 Cookbook, Third Edition: More than 250 solutions for C# 3.0 programmers
+
+
+
+
+
+
+
+Security in the .NET Framework
+------------------------------
+https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.100).aspx
+.NET Framework 4 Other Versions 
+The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write secure code and enable system administrators to customize the permissions granted to code so that it can access protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
+Important noteImportant
+Effective with the .NET Framework version 4, there are major changes to the code access security system. Security policy is no longer applied to applications. All applications that can be run from the desktop are now executed as full-trust applications. This includes both applications on the computer and applications that can be run from a network share. Partially trusted applications must be run in a sandbox, which determines their grant set. The permission system continues to be used, but it is transcended by security transparency rules. For information about these changes, see Security Changes in the .NET Framework 4.
+In This Section
+
+Security Changes in the .NET Framework 4
+Describes important changes to the .NET Framework security system.
+Security How-to Topics
+Lists links to How-to topics contained in this section.
+Key Security Concepts
+Provides an overview of common language runtime security features. This section is of interest to developers and system administrators.
+Code Access Security
+Describes how to interact with code access security in your code. This section is important to developers and can be of interest to system administrators.
+Role-Based Security
+Describes how to interact with role-based security in your code. This section is of interest to developers.
+Cryptographic Services
+Provides an overview of cryptographic services provided by the .NET Framework. This section is of interest to developers.
+Security Policy Management
+(Applies only to code that uses legacy security rules.) Describes how to manage code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Security Policy Best Practices
+(Applies only to code that uses legacy security rules.) Describes some of the best practices for administrating code access security policy. This section is of interest to system administrators who manage .NET Framework applications.
+Secure Coding Guidelines
+Describes some of the best practices for creating reliable .NET Framework applications. This section is of interest to developers.
+ACL Technology Overview
+Describes the managed classes that enable you to programmatically create or modify discretionary access control lists (DACLs) and system access control lists (SACLs) for protected resources such as files and folders. This section is of interest to developers.
+Related Sections
+
+Security Tools (.NET Framework)
+Describes command-line tools that help you perform security-related tasks, such as configuring security policy, managing certificates, and digitally signing files.
+ASP.NET Web Application Security
+Describes ASP.NET security and provides instructions for using it in your code.
+Configuring Security Policy
+(Aapplies only to code that uses legacy security rules.) Describes how to configure security policy using the .NET Framework Configuration tool and the Code Access Security Policy tool, and how to import security components using XML files.
+
+
+
+Security in the .NET Framework
+------------------------------
+https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.110).aspx
+
+.NET Framework 4.6 and 4.5 Other Versions 
+The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write secure code and enable system administrators to customize the permissions granted to code so that it can access protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
+Important note Important
+Effective with the .NET Framework 4, there are major changes to the code access security system. Security policy is no longer applied to applications. All applications that can be run from the desktop are now executed as full-trust applications. This includes both applications on the computer and applications that can be run from a network share. Partially trusted applications must be run in a sandbox, which determines their grant set. The permission system continues to be used, but it is transcended by security transparency rules. For information about these changes, see Security Changes in the .NET Framework.
+In This Section
+Security Changes in the .NET Framework
+Describes important changes to the .NET Framework security system.
+Key Security Concepts
+Provides an overview of common language runtime security features. This section is of interest to developers and system administrators.
+Code Access Security
+Describes how to interact with code access security in your code. This section is important to developers and can be of interest to system administrators.
+Role-Based Security
+Describes how to interact with role-based security in your code. This section is of interest to developers.
+.NET Framework Cryptography Model
+Provides an overview of cryptographic services provided by the .NET Framework. This section is of interest to developers.
+Secure Coding Guidelines
+Describes some of the best practices for creating reliable .NET Framework applications. This section is of interest to developers.
+Secure Coding Guidelines for Unmanaged Code
+Describes some of the best practices and security concerns when calling unmanaged code.
+How to: Run Partially Trusted Code in a Sandbox
+Explains how to run code in a restricted security environment to limit its access permissions.
+Windows Identity Foundation 4.5 Overview
+Describes how you can implement claims-based identity in your applications.
+Related Sections
+.NET Framework Development Guide
+Provides a guide to all key technology areas and tasks for application development, including creating, configuring, debugging, securing, and deploying your application, and information about dynamic programming, interoperability, extensibility, memory management, and threading.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security Changes in the .NET Framework 4
+----------------------------------------
+https://msdn.microsoft.com/en-us/library/dd233103(v=vs.100).aspx
+
+.NET Framework 4 Other Versions 
+There have been two major changes to security in the .NET Framework version 4. Machine-wide security policy has been eliminated, although the permissions system remains in place, and security transparency has become the default enforcement mechanism. (For more information, see Security-Transparent Code, Level 2.) In addition, some permission operations that presented the potential for security vulnerabilities have been made obsolete.
+
+	Security Policy Simplification
+	------------------------------
+	Windows Software Restriction Policies (SRP) or AppLocker on Windows 7 and Windows Server 2008 R2 as a replacement for CAS policy
+	
+	In the .NET Framework 4, machine-wide security policy is turned off by default. Applications that are not hosted (that is, applications that are executed through Windows Explorer or from a command prompt) now run as full trust. This includes all applications that reside on shares on the local network. Hosted or sandboxed applications continue to run with trust policies that are decided by their hosts (for example, by Internet Explorer, ClickOnce, or ASP.NET). Applications or controls that run in sandboxes are considered partially trusted.
+
+	
+	SecurityAction Enumeration	
+	https://msdn.microsoft.com/en-us/library/system.security.permissions.securityaction(v=vs.100).aspx
+	
+	<NetFx40_LegacySecurityPolicy> Element
+	https://msdn.microsoft.com/en-us/library/dd409253(v=vs.100).aspx
+	
+	SecurityRulesAttribute.RuleSet Property
+	https://msdn.microsoft.com/en-us/library/dd288474(v=vs.100).aspx
+	
+	
+
+
+Deploying Security Policy
+-------------------------
+Technology change 
+https://msdn.microsoft.com/en-us/library/13wcxx6y(v=vs.100).aspx
+In the .NET Framework version 4, the common language runtime (CLR) is moving away from providing security policy for computers. Microsoft is recommending the use of Windows Software Restriction Policies as a replacement for CLR security policy. The information in this topic applies to the .NET Framework version 3.5 and earlier; it does not apply to version 4.0 and later. For more information about this and other changes, see Security Changes in the .NET Framework 4.
+
+https://msdn.microsoft.com/en-us/library/13wcxx6y(v=vs.90).aspx
+
+.NET Framework 3.5 and before
+Updated: September 2008
+Security policy can be easily deployed in a Windows Installer (.msi) file. An .msi file is a self-contained installation package that can be deployed, installed, and uninstalled in a number of ways. For example, you can deploy an .msi file in any of the following ways:
+Running the .msi file on the computer where you want to deploy the policy, either from the local disk or from a share.
+Using Group Policy on Microsoft Windows servers.
+Using Microsoft Systems Management Server (SMS).
+Creating Windows Installer Files
+
+
+
+
+
+
+
+Creating Windows Forms Applications
+-----------------------------------
+
+Windows Forms Security
+----------------------
+ 
+Windows Forms features a security model that is code-based (security levels are set for code, regardless of the user running the code). This is in addition to any security schemas that may be in place already on your computer system. These can include those in the browser (such as the zone-based security available in Internet Explorer) or the operating system (such as the credential-based security of Windows NT).
+
+	- Security in Windows Forms Overview 
+	------------------------------------
+	https://msdn.microsoft.com/en-us/library/90k49ccb(v=vs.80).aspx
+	Before the release of the .NET Framework, all code running on a user's computer had the same rights or permissions to access resources that a user of the computer had. For example, if the user was allowed to access the file system, the code was allowed to access the file system; if the user was allowed to access a database, the code was allowed to access that database. Although these rights or permissions may be acceptable for code in executables that the user has explicitly installed on the local computer, they may not be acceptable for potentially malicious code coming from the Internet or a local Intranet. This code should not be able to access the user's computer resources without permission.
+	The .NET Framework introduces an infrastructure called Code Access Security that lets you differentiate the permissions, or rights, that code has from the rights that the user has. By default, code coming from the Internet and the Intranet can only run in what is known as partial trust. Partial trust subjects an application to a series of restrictions: among other things, an application is restricted from accessing the local hard disk, and cannot run unmanaged code. The .NET Framework controls the resources that code is allowed to access based on the identity of that code: where it came from, whether it has a Strong-Named Assemblies, whether it is signed with a certificate, and so on.
+	ClickOnce technology, which you use to deploy Windows Forms applications, helps make it easier for you to develop applications that run in partial trust, in full trust, or in partial trust with elevated permissions. ClickOnce provides features such as Permission Elevation and Trusted Application Deployment so that your application can request full trust or elevated permissions from the local user in a responsible manner.
+	
+	
+
+	- More Secure File and Data Access in Windows Forms 
+	---------------------------------------------------
+	https://msdn.microsoft.com/en-us/library/3wtbwh77(v=vs.80).aspx
+	
+	File Access
+	The FileIOPermission class controls file and folder access in the .NET Framework. By default, the security system does not grant the FileIOPermission
+
+	User-Specified Files
+	One way to deal with not having file access permission is to prompt the user to provide specific file information by using the OpenFileDialog or SaveFileDialog class. This user interaction helps provide some assurance that the application cannot maliciously load private files or overwrite important files. The OpenFile and OpenFile methods provide read and write file access by opening the file stream for the file that the user specified. The methods also help protect the user's file by obscuring the file's path.
+	
+	NoteNote
+	These permissions differ depending on whether your application is in the Internet zone or Intranet zone. Internet zone applications can only use the OpenFileDialog, whereas Intranet applications have unrestricted file dialog permission.
+
+	Other Files
+	FileIOPermission are not required; instead, the IsolatedStoragePermission class controls the permissions for isolated storage. By default, applications that are running in the local intranet and Internet zones can store data using isolated storage; however, settings like disk quota can vary. For more information about isolated storage, see Introduction to Isolated Storage.
+	
+	The example requires IsolatedStorageFilePermission and the DomainIsolationByUser enumeration value.
+	
+	
+	Database Access
+	The permissions required to access a database vary based on the database provider; however, only applications that are running with the appropriate permissions can access a database through a data connection. For more information about the permissions that are required to access a database, see Code Access Security and ADO.NET.
+
+	
+	Registry Access
+	The RegistryPermission class controls access to the operating system registry. By default, only applications that are running locally can access the registry. RegistryPermission only grants an application the right to try registry access; it does not guarantee access will succeed, because the operating system still enforces security on the registry.
+	Because you cannot access the registry under partial trust, you may need to find other methods of storing your data. When you store application settings, use isolated storage instead of the registry. Isolated storage can also be used to store other application-specific files. You can also store global application information about the server or site of origin, because by default an application is granted the right to access the site of its origin.
+
+	
+	
+	- More Secure Printing in Windows Forms 
+	---------------------------------------
+	https://msdn.microsoft.com/en-us/library/e640x3xc(v=vs.80).aspx
+
+	Windows Forms applications frequently include printing abilities. The .NET Framework uses the PrintingPermission class to control access to printing capabilities and the associated PrintingPermissionLevel enumeration value to indicate the level of access. By default, printing is enabled by default in the Local Intranet and Internet zones; however, the level of access is restricted in both zones. Whether your application can print, requires user interaction, or cannot print depends upon the permission value granted to the application. By default, the Local Intranet zone receives DefaultPrinting access and the Intranet zone receives SafePrinting access.
+	The following table shows the functionality available at each printing permission level.
+
+
+	- Additional Security Considerations in Windows Forms 
+	------------------------------------------------------
+	https://msdn.microsoft.com/en-US/library/6a02zsfd(v=vs.80).aspx
+	
+	Clipboard Access
+	The UIPermission
+
+	Window Manipulation
+	The UIPermission 
+
+	Hosting Third-Party Controls
+	Another kind of window manipulation can occur if your forms host third-party controls. A third-party control is any custom UserControl that you have not developed and compiled yourself. Although the hosting scenario is hard to exploit, it is theoretically possible for a third-party control to expand its rendering surface to cover the entire area of your form. This control could then mimic a critical dialog box, and request information such as username/password combinations or bank account numbers from your users.
+	To limit this potential risk, use third-party controls only from vendors you can trust. If you use third-party controls you have downloaded from an unverifiable source, we recommend that you review the source code for potential exploits. After you've verified that the source is non-malicious, you should compile the assembly yourself to ensure that the source matches the assembly.
+
+	Win32 API Calls
+	If your application design requires calling a function from the Win32 API, you are accessing unmanaged code. In this case the code's actions to the window or operating system cannot be determined when you are working with Win32 API calls or values. The SecurityPermission class and the UnmanagedCode value of the SecurityPermissionFlag enumeration control access to unmanaged code. An application can access unmanaged code only when it is granted the UnmanagedCode permission. By default, only applications that are running locally can call unmanaged code.
+
+	
+	
+	
+Hold - Introduction to Windows Service Applications 
+---------------------------------------------
+https://msdn.microsoft.com/en-us/library/y817hyb6(v=vs.71).aspx
+
+Microsoft Windows services, formerly known as NT services
+
+
+Done - XML Web services
+----------------
+--  This topic is specific to a legacy technology. XML Web services and XML Web service clients should now be created using Windows Communication Foundation .
+
+
+
+
+https://msdn.microsoft.com/en-us/library/63bf39c2(v=vs.71).aspx
