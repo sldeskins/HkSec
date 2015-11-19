@@ -372,6 +372,12 @@ CWE/SANS TOP 25 Most Dangerous Software Errors https://www.sans.org/top25-softwa
 Nation Vulnerability Database https://nvd.nist.gov/
 
 
+
+PortSwigger Web Security
+login
+Burp Suite, the leading toolkit for web application security testing
+
+https://portswigger.net/burp/
 -----------------------------------------------------------------------------------------------------------
 ===============================
 

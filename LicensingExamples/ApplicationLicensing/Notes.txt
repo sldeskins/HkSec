@@ -1,0 +1,21 @@
+﻿http://www.developer.com/net/csharp/article.php/10918_3074001_3/Applications-Licensing-using-the-NET-Framework.htm
+
+Registry-Based Licensing
+
+Registry-Based licensing implements a licensing scheme that checks for the 
+presence of a specific Registry key that contains a specific value. The 
+application itself implements no code to write the Registry value--that 
+must be done by the installation application, and since most applications 
+use the Registry anyway, this doesn't pose a significant development 
+limitation. We've been pre-populating Registry keys with our installation 
+applications ever since there was a Registry. 
+
+I could, if I wanted, be cleverer regarding the value written to the Registry, but for this example I'll simply write the string "Installed." I'll leave the more clever implementations to you (hey, I can't give away all of my secrets!). The value I'll look for is this: 
+HKEY_CURRENT_USER\Software\Acme\HostKeys\2de915e1-df71-
+3443-9f4d-32259c92ced2
+
+To begin, we'll need to modify the source code for the main application in four places in addition to writing our own license provider. These four areas are: 
+1.The application class declaration (to add some attributes)
+2.The application class constructor
+3.The application class Dispose() method
+4.The application "main" method

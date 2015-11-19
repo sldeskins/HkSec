@@ -1,5 +1,38 @@
+https://msdn.microsoft.com/en-us/library/63bf39c2(v=vs.71).aspx
+
+https://msdn.microsoft.com/en-us/library/dddsc60w(v=vs.71).aspx Migrating ASP Pages to ASP.NET
 
 
+https://msdn.microsoft.com/en-us/library/6759sth4(v=vs.71).aspx Accessing Data with ASP.NET
+
+https://msdn.microsoft.com/en-us/library/aa719549(v=vs.71).aspx  ASP.NET Applications
+
+
+https://msdn.microsoft.com/en-us/library/aa719576(v=vs.71).aspx ASP.NET State Management
+
+IHttpHandler Interface
+IHttpModule Interface
+HTTP Runtime Support
+
+https://msdn.microsoft.com/en-us/library/ywdtth2f(v=vs.71).aspx Creating ASP.NET Web Applications 
+
+
+https://msdn.microsoft.com/en-us/library/xsbfdd8c(v=vs.71).aspx ASP.NET Caching Features
+
+https://msdn.microsoft.com/en-us/library/44e5wy6k(v=vs.71).aspx ASP.NET Optimization
+
+https://msdn.microsoft.com/en-us/library/ywdtth2f(v=vs.71).aspx Creating ASP.NET Web Applications
+https://msdn.microsoft.com/en-us/library/8htez1ds(v=vs.71).aspx Creating ASP.NET Mobile Web Pages
+
+
+
+ASP.NET Web Application Security https://msdn.microsoft.com/en-us/library/330a99hc(v=vs.71).aspx
+
+
+
+Securing Applications
+
+--------------------------------------
 
 Code Access Security (CAS) policy
 Software Restriction Policies (SRP)
@@ -8,7 +41,6 @@ AllowPartiallyTrustedCallersAttribute (APTCA)
 Securing Applications
 ======================
 https://msdn.microsoft.com/en-us/library/fkytk30f(v=vs.71).aspx
-
 .NET Framework 1.1
 -------------------
 The common language runtime and the .NET Framework provide many useful classes and services that enable developers to easily write security code. These classes and services also enable system administrators to customize the access that code has to protected resources. In addition, the runtime and the .NET Framework provide useful classes and services that facilitate the use of cryptography and role-based security.
